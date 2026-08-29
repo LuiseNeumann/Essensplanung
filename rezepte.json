@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1",
+    "name": "Spaghetti Bolognese",
+    "kochdauer_minuten": 40,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Spaghetti", "menge": "500g", "kategorie": "Anderes" },
+      { "name": "veganes Hack", "menge": "300g", "kategorie": "Anderes" },
+      { "name": "Tomaten", "menge": "3", "kategorie": "Gemüse" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Karotte", "menge": "3", "kategorie": "Gemüse" },
+      { "name": "passierte Tomaten", "menge": "300g", "kategorie": "Konserven" }
+    ],
+    "beschreibung": "Zwiebeln anbraten, Hackfleisch dazu, Tomaten unterrühren..."
+  },
+
+  {
+    "id": "2",
+    "name": "Lasagne",
+    "kochdauer_minuten": 60,
+    "schwierigkeit": "mittel",
+    "zutaten": [
+      { "name": "Lasagneplatten", "menge": "500g", "kategorie": "Anderes" },
+      { "name": "passierte Tomaten", "menge": "300g", "kategorie": "Konserven" },
+      { "name": "veganes Hack", "menge": "300g", "kategorie": "Anderes" },
+      { "name": "vegane Sahne", "menge": "150ml", "kategorie": "Anderes" },
+      { "name": "veganer Käse", "menge": "100g", "kategorie": "Kühlprodukte" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Karotte", "menge": "2", "kategorie": "Gemüse" },
+      { "name": "Zucchini", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Tomaten", "menge": "3", "kategorie": "Gemüse" }
+    ],
+    "beschreibung": "Zwiebeln anbraten, Hackfleisch dazu, Tomaten unterrühren..."
+  },
+
+  {
+    "id": "3",
+    "name": "Gemüsecurry",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Karotten", "menge": "2", "kategorie": "Gemüse" },
+      { "name": "Kokosmilch", "menge": "1 Dose", "kategorie": "Konserven" },
+      { "name": "TK-Erbsen", "menge": "200g", "kategorie": "Tiefkühlprodukte" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Brokkoli", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Kichererbsen", "menge": "200g", "kategorie": "Konserven" },
+      { "name": "Reis", "menge": "200g", "kategorie": "Anderes" }
+    ],
+    "beschreibung": "Gemüse schneiden, anbraten, Kokosmilch dazu..."
+  },
+
+  {
+    "id": "4",
+    "name": "Milchreis",
+    "kochdauer_minuten": 20,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Milchreis", "menge": "250g", "kategorie": "Anderes" },
+      { "name": "Milch", "menge": "1l", "kategorie": "Anderes" },
+      { "name": "Kirschen", "menge": "200g", "kategorie": "Konserven" },
+      { "name": "Apfelmus", "menge": "200g", "kategorie": "Konserven" }
+    ],
+    "beschreibung": "Milch kcohen, Reis rein ..."
+  },
+
+  {
+    "id": "5",
+    "name": "Gemüse-Quinoa-Pfanne",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Karotten", "menge": "2", "kategorie": "Gemüse" },
+      { "name": "Quinoa", "menge": "200g", "kategorie": "Anderes" },
+      { "name": "TK-Erbsen", "menge": "200g", "kategorie": "Tiefkühlprodukte" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Brokkoli", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Kichererbsen", "menge": "200g", "kategorie": "Konserven" },
+      { "name": "Sojasauce", "menge": "10ml", "kategorie": "Anderes" }
+    ],
+    "beschreibung": "Gemüse schneiden, anbraten, Quinoa dazu..."
+  },
+
+  {
+    "id": "6",
+    "name": "bunter Salat",
+    "kochdauer_minuten": 20,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Salat", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Kichererbsen", "menge": "200g", "kategorie": "Konserven" },
+      { "name": "Toamten", "menge": "3", "kategorie": "Tiefkühlprodukte" },
+      { "name": "Frühlingszwiebeln", "menge": "3", "kategorie": "Gemüse" },
+      { "name": "Gurke", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Mayo", "menge": "3El", "kategorie": "Konserven" },
+      { "name": "Nüsse", "menge": "handvoll", "kategorie": "Anderes" }
+    ],
+    "beschreibung": "Gemüse schneiden, Kichererbsen rösten, Salat dazu..."
+  },
+
+  {
+    "id": "7",
+    "name": "Tomatensuppe",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Tomaten", "menge": "5", "kategorie": "Gemüse" },
+      { "name": "passierte Tomaten", "menge": "300g", "kategorie": "Konserven" },
+      { "name": "vegane Sahne", "menge": "100ml", "kategorie": "" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Baguette", "menge": "1", "kategorie": "Gebäck" }
+    ],
+    "beschreibung": "Gemüse schneiden, anbraten, Tomaten dazu..."
+  },
+
+  {
+    "id": "8",
+    "name": "Polenta Ecken",
+    "kochdauer_minuten": 40,
+    "schwierigkeit": "mittel",
+    "zutaten": [
+      { "name": "Pilze", "menge": "200g", "kategorie": "Gemüse" },
+      { "name": "vegane Sahne", "menge": "150 ml", "kategorie": "Konserven" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse" },
+      { "name": "Paprika", "menge": "2", "kategorie": "Gemüse" },
+      { "name": "Brokkoli", "menge": "0", "kategorie": "Gemüse" },
+      { "name": "Polenta", "menge": "300g", "kategorie": "Anderes" }
+    ],
+    "beschreibung": "Polenta quellen lassen, zwiebeln anbraten, vegane Sahne dazu..."
+  }, 
+
+  {
+    "id": "9",
+    "name": "Buchweizen Eierkuchen",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Buchweizenmehl", "menge": "200g", "kategorie": "Anderes" },
+      { "name": "Ei", "menge": "1", "kategorie": "Anderes" },
+      { "name": "Milch", "menge": "150ml", "kategorie": "Kühlprodukte"},
+      { "name": "Apfel", "menge": "2", "kategorie": "Obst" },
+      { "name": "Joghurt", "menge": "3El", "kategorie": "Kühlprodukte"}
+    ],
+    "beschreibung": "Buchweizenmehl, Ei und Milch mixen und Eierkuchen anbraten..."
+  }, 
+
+  {
+    "id": "10",
+    "name": "Kartoffelbrei mit Klops",
+    "kochdauer_minuten": 50,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Kartoffeln", "menge": "200g", "kategorie": "Gemüse" },
+      { "name": "vegane Sahne", "menge": "1", "kategorie": "Anderes" },
+      { "name": "Milch", "menge": "150ml", "kategorie": "Kühlprodukte"},
+      { "name": "Pilze", "menge": "200g", "kategorie": "Gemüse" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse"},
+      { "name": "vegane Klopse", "menge": "250g", "kategorie": "Kühlprodukte"},
+      { "name": "Paprika", "menge": "1", "kategorie": "Gemüse"}
+    ],
+    "beschreibung": "Kartoffeln kochen und stampfen, Zwiebeln anbraten, restliche Zutaten anbraten und Sahne aufgießen ..."
+  }, 
+
+  {
+    "id": "11",
+    "name": "Spinat Dhal",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Spinat", "menge": "300g", "kategorie": "Tiefkühlprodukte" },
+      { "name": "vegane Sahne", "menge": "1", "kategorie": "Anderes" },
+      { "name": "Milch", "menge": "150ml", "kategorie": "Kühlprodukte"},
+      { "name": "Tofu", "menge": "200g", "kategorie": "Kühlprodukte" },
+      { "name": "Zwiebeln", "menge": "1", "kategorie": "Gemüse"},
+      { "name": "Sojasauce", "menge": "3EL", "kategorie": "Anderes"},
+      { "name": "Paprika", "menge": "1", "kategorie": "Gemüse"}
+    ],
+    "beschreibung": "Zweibeln und Tofu anbraten, ablöschen mit Sojasauce, Spinat und Paprika anbraten, aufgießen mit Sahne und Milch..."
+  }, 
+
+  {
+    "id": "12",
+    "name": "Kidneybohnen-Pattys - Burger",
+    "kochdauer_minuten": 20,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "Kidneybohnen", "menge": "300g", "kategorie": "Konserven" },
+      { "name": "Haferflocken (gemahlen)", "menge": "100g", "kategorie": "Anderes" },
+      { "name": "Zwiebeln", "menge": "2", "kategorie": "Gemüse"},
+      { "name": "Brötchen", "menge": "2", "kategorie": "Gebäck" },
+      { "name": "saure Gurken", "menge": "5", "kategorie": "Konserven"},
+      { "name": "Mayo", "menge": "3EL", "kategorie": "Anderes"},
+      { "name": "Tomate", "menge": "1", "kategorie": "Gemüse"}
+    ],
+    "beschreibung": "Zweibeln anbraten, Kidneybohnen+Haferflocken+Zwiebeln pürieren und formen, Burgerbrötchen belegen..."
+  }, 
+
+  {
+    "id": "13",
+    "name": "Burrito Bowl",
+    "kochdauer_minuten": 30,
+    "schwierigkeit": "einfach",
+    "zutaten": [
+      { "name": "veganes Hack", "menge": "300g", "kategorie": "Konserven" },
+      { "name": "Salat", "menge": "200g", "kategorie": "Gemüse" },
+      { "name": "Zwiebeln", "menge": "2", "kategorie": "Gemüse"},
+      { "name": "Kartoffeln", "menge": "300g", "kategorie": "Gemüse" },
+      { "name": "Tomate", "menge": "5", "kategorie": "Gemüse"},
+      { "name": "Gurke", "menge": "1", "kategorie": "Gemüse"},
+      { "name": "Paprika", "menge": "1", "kategorie": "Gemüse"},
+      { "name": "Feta", "menge": "100g", "kategorie": "Kühlprodukte"},
+      { "name": "Avocado", "menge": "1", "kategorie": "Gemüse"},
+      { "name": "Joghurt", "menge": "1", "kategorie": "Kühlprodukte"}
+    ],
+    "beschreibung": "Zweibeln anbraten mit Hack, Kartoffeln kochen, Gemüse schneiden, nett anrichten und mit Joghurt Sauce garnieren..."
+  }
+]

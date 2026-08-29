@@ -1,0 +1,91 @@
+{
+    "Apfel": [
+        "August",
+        "September",
+        "Oktober",
+        "November"
+    ],
+    "Aprikose": [
+        "Juli",
+        "August"
+    ],
+    "Birne": [
+        "August",
+        "September",
+        "Oktober"
+    ],
+    "Blaubeeren / Heidelbeeren": [
+        "Juni",
+        "Juli",
+        "August",
+        "September"
+    ],
+    "Brombeeren": [
+        "Juli",
+        "August",
+        "September"
+    ],
+    "Erdbeeren": [
+        "Mai",
+        "Juni",
+        "Juli"
+    ],
+    "Himbeeren": [
+        "Juni",
+        "Juli",
+        "August"
+    ],
+    "Holunderbeeren / Flieder": [
+        "September",
+        "Oktober"
+    ],
+    "Johannisbeeren": [
+        "Juni",
+        "Juli",
+        "August"
+    ],
+    "Kirschen": [
+        "Juni",
+        "Juli",
+        "August"
+    ],
+    "Mirabellen": [
+        "Juli",
+        "August",
+        "September"
+    ],
+    "Pflaumen": [
+        "Juli",
+        "August",
+        "September"
+    ],
+    "Quitten": [
+        "September",
+        "Oktober",
+        "November"
+    ],
+    "Rhabarber": [
+        "April",
+        "Mai",
+        "Juni"
+    ],
+    "Stachelbeeren": [
+        "Juni",
+        "Juli",
+        "August"
+    ],
+    "Wassermelonen": [
+        "August",
+        "September"
+    ],
+    "Weintrauben": [
+        "September",
+        "Oktober"
+    ],
+    "Zwetschgen": [
+        "Juli",
+        "August",
+        "September",
+        "Oktober"
+    ]
+}

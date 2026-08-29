@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="apple-touch-icon" href="/static/logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="UTF-8">
+    <title>PurePlates</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="logo">
+        <h1>PurePlates</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Hauptmenü</a></li>
+            <li><a href="{{ url_for('rezepte_anzeigen') }}">Rezepte</a></li>
+            <li><a href="{{ url_for('meine_woche') }}">Meine Woche</a></li>
+            <li><a href="{{ url_for('saisonkalender') }}">Saisonkalender</a></li>
+        </ul>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

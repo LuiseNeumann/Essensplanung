@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Rezepte</h2>
+<ul class="Rezeptliste">
+    {% for rezept in rezepte %}
+    <li>
+        <h3>{{ rezept.name }}</h3>
+        {% if rezept.bild %}
+        <img src="{{ url_for('static', filename=rezept.bild) }}" alt="{{ rezept.name }}" width="150">
+        {% endif %}
+        <ul>
+            {% for zutat in rezept.zutaten %}
+            <li>{{ zutat.menge }} {{ zutat.name }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}

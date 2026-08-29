@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Meine Woche</h2>
+
+{% if plan %}
+<table>
+    <tr>
+        {% for i in range(plan|length) %}
+            <th>Tag {{ i + 1 }}</th>
+        {% endfor %}
+    </tr>
+    <tr>
+        {% for tag, gericht in plan.items() %}
+            <td>{{ gericht.name }}</td>
+        {% endfor %}
+    </tr>
+</table>
+
+<h3>Einkaufsliste</h3>
+<ul>
+    {% for kategorie, zutaten in einkaufsliste.items() %}
+    <li><strong>{{ kategorie }}</strong>
+        <ul>
+            {% for zutat in zutaten %}
+            <br>
+                <label>
+                    <input type="checkbox" class="zutat-checkbox">
+                    {{ zutat }}
+                </label>
+            <br>
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
+
+<form method="post" action="/meine-woche/loeschen">
+    <button type="submit">Löschen</button>
+</form>
+{% else %}
+<p>Noch keine Woche gespeichert.</p>
+{% endif %}
+{% endblock %}
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const checkboxes = document.querySelectorAll(".zutat-checkbox");
+
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener("change", function () {
+            if (checkbox.checked) {
+                checkbox.parentElement.style.textDecoration = "line-through";
+                checkbox.parentElement.style.color = "#999";
+            } else {
+                checkbox.parentElement.style.textDecoration = "none";
+                checkbox.parentElement.style.color = "inherit";
+            }
+        });
+    });
+});
+</script>

@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Saisionkalender</h2>
+
+<!-- Tabelle für Obst -->
+<h3>Obst</h3>
+<table class="saisonkalender">
+    <tr>
+        <th>Obst</th>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <th>{{ monat }}</th>
+        {% endfor %}
+    </tr>
+    {% for art, monate in obst.items() %}
+    <tr>
+        <td>{{ art }}</td>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <td style="background-color: {% if monat in monate %}#90EE90{% else %}#FFCCCC{% endif %}"></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<!-- Tabelle für Gemüse -->
+<h3>Gemüse</h3>
+<table class="saisonkalender">
+    <tr>
+        <th>Gemüse</th>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <th>{{ monat }}</th>
+        {% endfor %}
+    </tr>
+    {% for art, monate in gemuese.items() %}
+    <tr>
+        <td>{{ art }}</td>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <td style="background-color: {% if monat in monate %}#90EE90{% else %}#FFCCCC{% endif %}"></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<!-- Tabelle für Salat -->
+<h3>Salat</h3>
+<table class="saisonkalender">
+    <tr>
+        <th>Salat</th>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <th>{{ monat }}</th>
+        {% endfor %}
+    </tr>
+    {% for art, monate in salat.items() %}
+    <tr>
+        <td>{{ art }}</td>
+        {% for monat in ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] %}
+            <td style="background-color: {% if monat in monate %}#90EE90{% else %}#FFCCCC{% endif %}"></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
